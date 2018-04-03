@@ -179,3 +179,9 @@ Temporary Items
 
 MNIST-data/
 model/eval/
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/mnist.iml
+.idea/modules.xml
+.idea/preferred-vcs.xml
+.idea/vcs.xml
