@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Number Handwriting Recognition</title>
+    <script src="/static/js/request.js"></script>
+    <script src="/static/js/service.js"></script>
+    <script src="/static/js/main.js"></script>
+</head>
+<body>
+    <canvas id="canvas" style="border: 1px solid black"></canvas>
+    <button id="detect">detect</button>
+    <button id="clear">clear</button>
+    <canvas id="goalCanvas" style="border: 1px solid black"></canvas>
+    <div id="result"></div>
+    <script>
+        Handwriting.staticConstructor({
+            canvasId: 'canvas',
+            goalCanvasId: 'goalCanvas',
+            detectBtnId: 'detect',
+            clearBtnId: 'clear',
+            resultId: 'result',
+        });
+    </script>
+</body>
+</html>
