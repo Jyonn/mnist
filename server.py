@@ -14,7 +14,7 @@ def handwriting():
 @app.route('/api/detect', methods=['POST'])
 def detect():
     image = json.loads(request.data)['image']
-    result = os.popen('python predict.py "%s"' % image)
+    result = os.popen('python3 predict.py "%s"' % image)
     r = result.read()
     result.close()
     return r
