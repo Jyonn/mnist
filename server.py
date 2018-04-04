@@ -18,3 +18,7 @@ def detect():
     r = result.read()
     result.close()
     return r
+
+
+if __name__ == '__main__':
+    app.run()
