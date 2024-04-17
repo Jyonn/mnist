@@ -6,7 +6,7 @@ RUN \
   apt-get install -y git python3-pip
 
 ARG sth=LATEST
-RUN sth=${sth} git clone https://github.com/lqj679ssn/mnist.git
+RUN sth=${sth} git clone https://github.com/Jyonn/mnist.git
 WORKDIR mnist/
 RUN pip3 install --upgrade pip
 RUN pip3 install -r requirements.txt
